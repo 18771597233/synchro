@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"      
+ "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+ <mapper namespace="com.synchro.dao.YmyyDao">
+ 	<select id="findAll" parameterType="string" resultType="map">
+ 		select * from rel_crland_ymyy where eId=#{id}
+ 	</select>
+ 	<select id="findAlls" parameterType="string" resultType="com.synchro.entity.Person">
+ 		select * from rel_crland_ymyy where eId=#{id}
+ 	</select>
+ </mapper>

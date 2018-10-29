@@ -1,0 +1,17 @@
+com\synchro\service\PersonServiceimplent.class
+com\synchro\service\PersonService.class
+com\synchro\controller\MainController.class
+com\synchro\util\JsonResult.class
+com\synchro\dao\UpdataDao.class
+com\synchro\entity\Person.class
+com\synchro\util\OLDBUtil.class
+com\synchro\util\MqDBUtil.class
+com\synchro\util\personUtil.class
+com\synchro\util\HRConstant.class
+com\synchro\entity\BaseInfo.class
+com\synchro\service\CheckData.class
+com\synchro\util\HrSql.class
+com\synchro\dao\YmyyDao.class
+com\synchro\util\DBUtil.class
+com\synchro\controller\ActionController.class
+com\synchro\dao\FindDao.class
